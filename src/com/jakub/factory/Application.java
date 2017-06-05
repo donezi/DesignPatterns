@@ -7,8 +7,8 @@ public class Application {
     public static void main(String[] args) {
 
         AbstractCarFactory abstractCarFactory = new AbstractCarFactory();
-        Car car = abstractCarFactory.buildAudiCar("a3");
-        Car car2 = abstractCarFactory.buildBMWCar("x5");
+        Car car = abstractCarFactory.buildAudiCar("A3");
+        Car car2 = abstractCarFactory.buildBMWCar("X5");
         Car car3 = abstractCarFactory.buildMercedesCar("cls-500");
 
 //        Engine audiEngine = new Engine(200, 3000, "diesel");
